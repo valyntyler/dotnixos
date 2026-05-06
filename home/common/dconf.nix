@@ -226,6 +226,7 @@
         "io.github.mrvladus.List.desktop"
         "org.gnome.design.Lorem.desktop"
         "io.github.nozwock.Packet.desktop"
+        "io.github.alainm23.planify.desktop"
         "com.github.marhkb.Pods.desktop"
         "net.nokyan.Resources.desktop"
         "com.github.flxzt.rnote.desktop"
