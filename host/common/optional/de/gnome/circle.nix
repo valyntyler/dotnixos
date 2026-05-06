@@ -29,6 +29,7 @@
 
     # these deserve to be a circle apps
     # bottles
+    alpaca
     crosspipe
     exhibit
     foliate
