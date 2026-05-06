@@ -38,6 +38,7 @@
     packet
     planify
     pods
+    refine
     rnote
     varia
   ];
