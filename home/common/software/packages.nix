@@ -11,8 +11,6 @@
     prismlauncher
     pwvucontrol
     signal-desktop
-    slack
-    teams-for-linux
     tigervnc
     vmpk
     wl-clipboard
