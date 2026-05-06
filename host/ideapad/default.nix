@@ -1,4 +1,6 @@
-{lib, ...}: {
+{lib, ...}: let
+  inherit (lib) mkForce;
+in {
   imports = [
     ./hardware-configuration.nix
     ../common/core
@@ -28,5 +30,15 @@
   boot.lanzaboote = {
     enable = true;
     pkiBundle = "/var/lib/sbctl";
+  };
+
+  # Dual GPU
+  hardware.nvidia.prime = {
+    intelBusId = mkForce "PCI:0@0:2:0";
+    nvidiaBusId = mkForce "PCI:2@0:0:0";
+    offload = {
+      enable = true;
+      enableOffloadCmd = true;
+    };
   };
 }
