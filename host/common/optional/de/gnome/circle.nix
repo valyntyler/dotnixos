@@ -32,6 +32,7 @@
     alpaca
     crosspipe
     exhibit
+    flare
     foliate
     fractal
     gelly
