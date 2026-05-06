@@ -18,7 +18,6 @@
       musescore
 
       # davinci-resolve
-      reaper
 
       vital
     ]
@@ -31,5 +30,6 @@
       with pkgs-stable; [
         aseprite
         guitarix
+        reaper
       ]);
 }
