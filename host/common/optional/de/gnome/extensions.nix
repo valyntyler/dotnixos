@@ -8,7 +8,6 @@
     just-perfection
     paperwm
     search-light
-    spotify-tray
     totp
     void
 

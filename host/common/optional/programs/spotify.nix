@@ -1,3 +1,3 @@
 {pkgs, ...}: {
-  environment.systemPackages = with pkgs; [spotify spotify-tray];
+  environment.systemPackages = with pkgs; [spotify];
 }

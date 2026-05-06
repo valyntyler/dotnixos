@@ -14,7 +14,6 @@
         "fish"
         "nvim"
         "yazi"
-        "spotify-tray"
         "nvtop"
       ]);
     mimeApps = {
