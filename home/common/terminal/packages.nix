@@ -15,6 +15,7 @@
     glow
     gnumake
     hledger
+    hledger-ui
     imagemagick
     lsof
     ouch
