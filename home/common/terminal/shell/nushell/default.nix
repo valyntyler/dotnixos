@@ -14,5 +14,6 @@
     enable = true;
     plugins = with pkgs.nushellPlugins; [formats];
     extraConfig = ''${banner}'';
+    environmentVariables.PAGER = "${pkgs.bat}";
   };
 }
