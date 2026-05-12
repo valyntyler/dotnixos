@@ -45,5 +45,8 @@
     ttyper
     typer
     typtea
+
+    # games
+    cl-wordle
   ];
 }
