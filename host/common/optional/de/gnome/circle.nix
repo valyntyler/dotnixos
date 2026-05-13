@@ -42,5 +42,12 @@
     refine
     rnote
     varia
+
+    coulr
+    eartag
+    pdfarranger
+    # libellus
+    # words
+    # pulp
   ];
 }

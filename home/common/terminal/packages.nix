@@ -15,6 +15,7 @@
     glow
     gnumake
     hledger
+    hledger-ui
     imagemagick
     lsof
     ouch
@@ -44,5 +45,8 @@
     ttyper
     typer
     typtea
+
+    # games
+    cl-wordle
   ];
 }

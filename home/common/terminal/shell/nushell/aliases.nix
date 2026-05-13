@@ -10,6 +10,7 @@
     zj = "zellij";
     ze = "zoxide edit";
     nr = "nix run";
+    hl = "hledger-ui";
     rcon = "rcon-cli";
     tree = "eza --tree";
     lsusb = "cyme -l";
