@@ -490,11 +490,11 @@
     },
     "nixpkgs-yazi-flavors": {
       "locked": {
-        "lastModified": 1768244880,
-        "narHash": "sha256-KiH7n85epQq7yDY6FQn3nsvFuQp3hDGC5cuKYIA/2v8=",
+        "lastModified": 1778677454,
+        "narHash": "sha256-FvhGa2TnHql/HHPi2ZxQaWXjcCCJKH8WSBIk86Cp2n8=",
         "owner": "valyntyler",
         "repo": "nixpkgs",
-        "rev": "cb63d58f51e926a63d4c2d3f14d266c004a882cd",
+        "rev": "a0877fad588bd06fa91cd54447b6e98dd58b2f58",
         "type": "github"
       },
       "original": {
