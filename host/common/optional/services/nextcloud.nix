@@ -30,6 +30,7 @@ in {
         (pkgs.nextcloud33Packages.apps)
         calendar
         contacts
+        cookbook
         news
         richdocuments
         tasks
