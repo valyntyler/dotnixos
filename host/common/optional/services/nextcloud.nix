@@ -32,6 +32,7 @@ in {
         contacts
         cookbook
         news
+        notes
         richdocuments
         tasks
         ;
