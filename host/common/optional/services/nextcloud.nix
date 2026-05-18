@@ -28,6 +28,7 @@ in {
     extraApps = {
       inherit
         (pkgs.nextcloud33Packages.apps)
+        bookmarks
         calendar
         contacts
         cookbook
