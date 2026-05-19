@@ -36,10 +36,10 @@
         run = "plugin mount";
       }
     ];
-
-    flavors = with inputs.nixpkgs-yazi-flavors.legacyPackages.x86_64-linux.yaziFlavors; {inherit gruvbox-dark;};
-    plugins = with pkgs.yaziPlugins; {
+    flavors = {inherit (inputs.nixpkgs-yazi-flavors.legacyPackages.x86_64-linux.yaziFlavors) gruvbox-dark;};
+    plugins = {
       inherit
+        (pkgs.yaziPlugins)
         chmod
         git
         mount
