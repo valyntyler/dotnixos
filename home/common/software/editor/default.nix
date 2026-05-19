@@ -7,6 +7,7 @@
     ./jetbrains.nix
     ./neovide.nix
     ./openscad.nix
+    ./vscode.nix
     ./vscodium.nix
   ];
 }
