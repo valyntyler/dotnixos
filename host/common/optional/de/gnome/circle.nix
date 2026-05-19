@@ -45,7 +45,7 @@
 
     coulr
     eartag
-    pdfarranger
+    # pdfarranger
     # libellus
     # words
     # pulp
