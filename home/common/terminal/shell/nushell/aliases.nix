@@ -3,6 +3,7 @@
     e = "nvim";
     l = "ls";
     o = "xdg-open .";
+    cb = "fj -H codeberg.org";
     ex = "xdg-open";
     la = "ls -a";
     ll = "ls -l";
