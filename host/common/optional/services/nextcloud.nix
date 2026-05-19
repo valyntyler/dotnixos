@@ -32,6 +32,7 @@ in {
         calendar
         contacts
         cookbook
+        gpoddersync
         news
         notes
         richdocuments
