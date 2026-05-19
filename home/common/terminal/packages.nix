@@ -11,6 +11,7 @@
     cyme
     dig
     duf
+    forgejo-cli
     gfold
     glow
     gnumake
