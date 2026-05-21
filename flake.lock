@@ -639,11 +639,11 @@
         "nvf": "nvf_2"
       },
       "locked": {
-        "lastModified": 1779211642,
-        "narHash": "sha256-L+LmQZQWmCBj6zeFgGfwxma+He8T2cIAM9+uFersaAM=",
+        "lastModified": 1779367502,
+        "narHash": "sha256-ZajltOG55hG3Bn7t7dAKkEFRi7mSB7uzFk/eVEiXca4=",
         "owner": "valyntyler",
         "repo": "nvf",
-        "rev": "b4de899416219d06568c9ac72fae8ed484d23a1d",
+        "rev": "86eb6a3a1f06b431afcff900069ddd44ed29c31f",
         "type": "github"
       },
       "original": {
