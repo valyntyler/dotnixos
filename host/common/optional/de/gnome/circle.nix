@@ -32,7 +32,7 @@
     alpaca
     crosspipe
     exhibit
-    flare
+    flare-signal
     foliate
     fractal
     gelly
