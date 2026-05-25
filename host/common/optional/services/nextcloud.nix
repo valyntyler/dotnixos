@@ -34,6 +34,7 @@ in {
         cookbook
         gpoddersync
         news
+        nextpod
         notes
         richdocuments
         tasks
