@@ -27,7 +27,6 @@
     flint.url = "github:notashelf/flint";
     flint.inputs.nixpkgs.follows = "nixpkgs";
 
-    qbitwebui.url = "github:valyntyler/qbitwebui";
     nix-minecraft.url = "github:Infinidoge/nix-minecraft";
 
     gurk.url = "github:valyntyler/gurk-rs";
