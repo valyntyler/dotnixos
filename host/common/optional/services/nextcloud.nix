@@ -36,6 +36,7 @@ in {
         news
         nextpod
         notes
+        repod
         richdocuments
         tasks
         ;
