@@ -28,6 +28,7 @@
     ../common/optional/services/qbittorrent.nix
     ../common/optional/services/qui.nix
     ../common/optional/services/syncthing.nix
+    ../common/optional/services/transmission.nix
   ];
 
   system.stateVersion = "24.11";
