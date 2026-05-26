@@ -5,7 +5,6 @@
     ./exclude.nix
     ./experimental.nix
     ./extensions.nix
-    ./games.nix
     ./gnome.nix
     ./nautilus.nix
   ];
