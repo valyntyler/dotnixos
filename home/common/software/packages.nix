@@ -1,6 +1,7 @@
 {pkgs, ...}: {
   home.packages = with pkgs; [
     bitwarden-desktop
+    eden
     galaxy-buds-client
     iaito
     jellyfin-desktop
