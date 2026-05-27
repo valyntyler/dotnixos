@@ -11,6 +11,7 @@
     openra
     prismlauncher
     pwvucontrol
+    ryubing
     signal-desktop
     tigervnc
     vmpk
