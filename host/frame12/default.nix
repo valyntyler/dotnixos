@@ -29,8 +29,9 @@
     ../common/optional/services/syncthing.nix
 
     # virtualization
-    ../common/optional/virtual/docker.nix
-    ../common/optional/virtual/podman.nix
+    ../common/optional/virt/docker.nix
+    ../common/optional/virt/podman.nix
+    ../common/optional/virt/virtd.nix
   ];
 
   system.stateVersion = "25.11";

@@ -21,6 +21,7 @@ in {
     ../common/optional/programs/steam.nix
     ../common/optional/services/kanata.nix
     ../common/optional/services/syncthing.nix
+    ../common/optional/virt/virtd.nix
   ];
 
   system.stateVersion = "24.05";
