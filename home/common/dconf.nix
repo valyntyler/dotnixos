@@ -443,6 +443,7 @@
         "net.nokyan.Resources"
         "org.gnome.Fractal"
         "io.github.alainm23.planify"
+        "de.schmidhuberj.Flare"
       ];
     };
   };
