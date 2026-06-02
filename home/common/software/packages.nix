@@ -3,6 +3,7 @@
     bitwarden-desktop
     eden
     galaxy-buds-client
+    heroic
     iaito
     jellyfin-desktop
     karere
