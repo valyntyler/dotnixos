@@ -49,5 +49,7 @@
     # libellus
     # words
     # pulp
+
+    gamepad-mirror
   ];
 }
