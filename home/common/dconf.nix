@@ -384,7 +384,6 @@
           "firefox.desktop"
           "thunderbird.desktop"
           "proton-mail.desktop"
-          "obsidian.desktop"
           "bitwarden.desktop"
           # row 2
           "discord.desktop"

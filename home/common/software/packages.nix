@@ -8,7 +8,6 @@
     jellyfin-desktop
     karere
     libreoffice-fresh
-    obsidian
     openra
     prismlauncher
     pwvucontrol
