@@ -64,5 +64,10 @@
 
     # ssh configuration
     shell-integration-features = ssh-env
+
+    # notifications
+    notify-on-command-finish = unfocused
+    notify-on-command-finish-action = bell,notify
+    notify-on-command-finish-after = 20s
   '';
 }
