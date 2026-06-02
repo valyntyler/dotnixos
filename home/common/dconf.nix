@@ -127,6 +127,7 @@
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/"
+        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/"
       ];
     };
 
@@ -156,6 +157,13 @@
       binding = "<Super>Space";
       command = "sherlock";
       name = "launcher";
+    };
+
+    # open launcher
+    "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4" = {
+      binding = "<Ctrl><Shift>Escape";
+      command = "resources";
+      name = "task manager";
     };
 
     # set wallpaper image
