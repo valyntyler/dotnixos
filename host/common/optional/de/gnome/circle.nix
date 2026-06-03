@@ -50,6 +50,7 @@
     # words
     # pulp
 
+    dissent
     gamepad-mirror
   ];
 }
