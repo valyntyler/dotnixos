@@ -26,6 +26,7 @@
     # services
     ../common/optional/services/kanata.nix
     ../common/optional/services/pipewire.nix
+    ../common/optional/services/postgres.nix
     ../common/optional/services/syncthing.nix
 
     # virtualization
