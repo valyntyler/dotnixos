@@ -1,4 +1,4 @@
-{
+{lib, ...}: {
   imports = [
     ./hardware-configuration.nix
     ../common/core
@@ -36,4 +36,6 @@
   ];
 
   system.stateVersion = "25.11";
+
+  services.fwupd.enable = lib.mkForce false;
 }
