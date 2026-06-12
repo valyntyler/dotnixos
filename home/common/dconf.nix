@@ -317,7 +317,6 @@
         "base.desktop"
         "math.desktop"
         "draw.desktop"
-        "onlyoffice-desktopeditors.desktop"
       ];
     };
 
