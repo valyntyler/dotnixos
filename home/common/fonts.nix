@@ -1,3 +1,6 @@
 {pkgs, ...}: {
-  home.packages = with pkgs.nerd-fonts; [jetbrains-mono];
+  home.packages = with pkgs.nerd-fonts; [
+    fira-code
+    jetbrains-mono
+  ];
 }
