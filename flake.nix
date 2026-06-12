@@ -27,9 +27,6 @@
 
     nvf.url = "github:valyntyler/nvf";
 
-    flint.url = "github:notashelf/flint";
-    flint.inputs.nixpkgs.follows = "nixpkgs";
-
     nix-minecraft.url = "github:Infinidoge/nix-minecraft";
 
     # import zen browser flake
