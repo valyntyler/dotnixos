@@ -10,7 +10,8 @@
     flake-parts.url = "github:hercules-ci/flake-parts";
     home-manager.url = "github:nix-community/home-manager";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-    nixos-hardware.url = "github:valyntyler/nixos-hardware/master";
+    nixos-hardware.url = "github:nixos/nixos-hardware";
+    nixos-hardware-ideapad.url = "github:valyntyler/nixos-hardware/master";
 
     nh.url = "github:nix-community/nh";
 

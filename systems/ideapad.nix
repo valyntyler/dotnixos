@@ -13,7 +13,7 @@
         inputs.sops-nix.nixosModules.sops
         inputs.lanzaboote.nixosModules.lanzaboote
         inputs.home-manager.nixosModules.home-manager
-        inputs.nixos-hardware.nixosModules.lenovo-ideapad-15ihu6
+        inputs.nixos-hardware-ideapad.nixosModules.lenovo-ideapad-15ihu6
       ];
     };
   };
