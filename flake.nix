@@ -15,6 +15,10 @@
 
     nh.url = "github:nix-community/nh";
 
+    # TODO: add package
+    nix-tree.url = "github:utdemir/nix-tree";
+    nix-tree.inputs.nixpkgs.follows = "nixpkgs";
+
     # nix-auth.url = "github:numtide/nix-auth";
 
     musnix.url = "github:musnix/musnix";
