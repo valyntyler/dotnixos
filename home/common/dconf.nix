@@ -385,21 +385,21 @@
           "zen-beta.desktop"
           "firefox.desktop"
           "thunderbird.desktop"
-          "proton-mail.desktop"
-          "bitwarden.desktop"
-          # row 2
           "discord.desktop"
           "signal.desktop"
           "io.github.tobagin.karere.desktop"
+          # row 2
           "spotify.desktop"
           "steam.desktop"
           "Programming"
           "Office"
           "Creation"
-          # row 3
           "Sound & Video"
           "Games"
           "Settings"
+          # row 3
+          "syncthing-ui.desktop"
+          "org.jellyfin.JellyfinDesktop.desktop"
         ]
       ];
     };
