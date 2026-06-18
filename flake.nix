@@ -42,6 +42,9 @@
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
+
+    # infrastructure
+    indev-infra.url = "git+https://codeberg.org/utwente-indev/infra";
   };
 
   outputs = {

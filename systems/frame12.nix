@@ -14,6 +14,7 @@
         inputs.musnix.nixosModules.musnix
         inputs.home-manager.nixosModules.home-manager
         inputs.nixos-hardware.nixosModules.framework-12-13th-gen-intel
+        inputs.indev-infra.nixosModules.default
       ];
     };
   };
