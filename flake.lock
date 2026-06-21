@@ -241,11 +241,11 @@
         "nixpkgs": "nixpkgs"
       },
       "locked": {
-        "lastModified": 1781788809,
-        "narHash": "sha256-wtOqUmYXsI5hEepM2sphNI4E7gpe5GSj4p7sPwAMDhg=",
+        "lastModified": 1781790238,
+        "narHash": "sha256-O6xJMIj2lBlR1x709qu9YnMyP1HRtYUoY2hxs5+YsJA=",
         "ref": "refs/heads/main",
-        "rev": "2c8663f0f77107836ad614364d9e3a44d3166023",
-        "revCount": 2,
+        "rev": "e0e68ccc22434c53c16a48ff3b9207a5be7b5f02",
+        "revCount": 3,
         "type": "git",
         "url": "https://codeberg.org/utwente-indev/infra"
       },
@@ -401,11 +401,11 @@
         "nixpkgs": "nixpkgs_4"
       },
       "locked": {
-        "lastModified": 1781168557,
-        "narHash": "sha256-LOnLQ2tpYF9gqIDDr3+j3DbpJJr/QCH6zPRT2GzEUOE=",
+        "lastModified": 1781622756,
+        "narHash": "sha256-JrPh4M6S7aPsEE9tOENuZrxC6o2szSLlK+t4+nLke9s=",
         "owner": "nixos",
         "repo": "nixos-hardware",
-        "rev": "6358ff76821101c178e3ab4919a62799bfe3652e",
+        "rev": "08018c72174a4df5657f8d94178ac69fb9c243e5",
         "type": "github"
       },
       "original": {
@@ -415,12 +415,15 @@
       }
     },
     "nixos-hardware-ideapad": {
+      "inputs": {
+        "nixpkgs": "nixpkgs_5"
+      },
       "locked": {
-        "lastModified": 1772378433,
-        "narHash": "sha256-pzwiCsQbaAJOSq8+inUscjqICJNUPwpKWKn7QLIOsCo=",
+        "lastModified": 1782076020,
+        "narHash": "sha256-C7XktJ1Xdio5EVCDWAqaTNZSFIljkRak9tu9frnfjaE=",
         "owner": "valyntyler",
         "repo": "nixos-hardware",
-        "rev": "495b1fbe661986d4e5fce8fc636e95112a7d8b2a",
+        "rev": "9e4333bddc24ca2b9b3417eb35d42e71b0e04a18",
         "type": "github"
       },
       "original": {
@@ -567,6 +570,19 @@
     },
     "nixpkgs_5": {
       "locked": {
+        "lastModified": 1767892417,
+        "narHash": "sha256-8bW3q88CEg2u4hSP66Vf4lpbLonHz7hqDNBMcCY7E9U=",
+        "rev": "3497aa5c9457a9d88d71fa93a4a8368816fbeeba",
+        "type": "tarball",
+        "url": "https://releases.nixos.org/nixos/unstable/nixos-26.05pre924538.3497aa5c9457/nixexprs.tar.xz"
+      },
+      "original": {
+        "type": "tarball",
+        "url": "https://channels.nixos.org/nixos-unstable/nixexprs.tar.xz"
+      }
+    },
+    "nixpkgs_6": {
+      "locked": {
         "lastModified": 1781074563,
         "narHash": "sha256-md8WlXOlfnIeHeOScMTTHFyf2d6iaTwPl2apR5EQ3P4=",
         "owner": "NixOS",
@@ -581,7 +597,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_6": {
+    "nixpkgs_7": {
       "locked": {
         "lastModified": 1777954456,
         "narHash": "sha256-hGdgeU2Nk87RAuZyYjyDjFL6LK7dAZN5RE9+hrDTkDU=",
@@ -597,7 +613,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_7": {
+    "nixpkgs_8": {
       "locked": {
         "lastModified": 1774386573,
         "narHash": "sha256-4hAV26quOxdC6iyG7kYaZcM3VOskcPUrdCQd/nx8obc=",
@@ -613,7 +629,7 @@
         "type": "github"
       }
     },
-    "nixpkgs_8": {
+    "nixpkgs_9": {
       "locked": {
         "lastModified": 1773734432,
         "narHash": "sha256-IF5ppUWh6gHGHYDbtVUyhwy/i7D261P7fWD1bPefOsw=",
@@ -632,7 +648,7 @@
     "nvf": {
       "inputs": {
         "flake-utils": "flake-utils_2",
-        "nixpkgs": "nixpkgs_6",
+        "nixpkgs": "nixpkgs_7",
         "nvf": "nvf_2"
       },
       "locked": {
@@ -655,7 +671,7 @@
         "flake-parts": "flake-parts_3",
         "mnw": "mnw",
         "ndg": "ndg",
-        "nixpkgs": "nixpkgs_7",
+        "nixpkgs": "nixpkgs_8",
         "systems": "systems_4"
       },
       "locked": {
@@ -707,7 +723,7 @@
         "nix-tree": "nix-tree",
         "nixos-hardware": "nixos-hardware",
         "nixos-hardware-ideapad": "nixos-hardware-ideapad",
-        "nixpkgs": "nixpkgs_5",
+        "nixpkgs": "nixpkgs_6",
         "nixpkgs-stable": "nixpkgs-stable",
         "nixpkgs-yazi-flavors": "nixpkgs-yazi-flavors",
         "nvf": "nvf",
@@ -841,7 +857,7 @@
     },
     "wrappers": {
       "inputs": {
-        "nixpkgs": "nixpkgs_8"
+        "nixpkgs": "nixpkgs_9"
       },
       "locked": {
         "lastModified": 1780428045,
