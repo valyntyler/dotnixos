@@ -1,6 +1,4 @@
-{lib, ...}: let
-  inherit (lib) mkForce;
-in {
+{lib, ...}: {
   imports = [
     ./hardware-configuration.nix
     ../common/core
@@ -35,12 +33,9 @@ in {
   };
 
   # Dual GPU
-  hardware.nvidia.prime = {
-    intelBusId = mkForce "PCI:0@0:2:0";
-    nvidiaBusId = mkForce "PCI:2@0:0:0";
-    offload = {
-      enable = true;
-      enableOffloadCmd = true;
-    };
+  hardware.nvidia.prime.offload = {
+    enable = true;
+    enableOffloadCmd = true;
+    offloadCmdMainProgram = "gpu-offload";
   };
 }
