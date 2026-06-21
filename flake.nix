@@ -19,7 +19,7 @@
     nix-tree.url = "github:utdemir/nix-tree";
     nix-tree.inputs.nixpkgs.follows = "nixpkgs";
 
-    # nix-auth.url = "github:numtide/nix-auth";
+    nix-auth.url = "github:numtide/nix-auth";
 
     musnix.url = "github:musnix/musnix";
     musnix.inputs.nixpkgs.follows = "nixpkgs";
