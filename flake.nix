@@ -40,6 +40,10 @@
     # import firefox runner
     wofizilla.url = "github:valyntyler/wofizilla";
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
+
+    # infrastructure
+    indev-infra.url = "git+https://codeberg.org/indevmeetup/infra";
+    indev-infra.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {

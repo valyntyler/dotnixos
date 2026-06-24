@@ -31,4 +31,21 @@
   ];
 
   system.stateVersion = "24.11";
+
+  ## container stuff
+
+  networking.nat = {
+    enable = true;
+    # Use "ve-*" when using nftables instead of iptables
+    internalInterfaces = ["ve-+"];
+    externalInterface = "ens3";
+    # Lazy IPv6 connectivity for the container
+    enableIPv6 = true;
+  };
+
+  services.nginx.virtualHosts."frigginfrogs.gay" = {
+    forceSSL = true;
+    enableACME = true;
+    locations."/".proxyPass = "http://192.168.100.11";
+  };
 }
