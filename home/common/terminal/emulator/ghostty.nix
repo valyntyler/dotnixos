@@ -1,4 +1,7 @@
-{
+let
+  inherit (builtins) toString;
+  font-size = 14;
+in {
   programs.ghostty = {
     enable = true;
 
@@ -13,7 +16,7 @@
 
     # font
     font-family = JetBrainsMono NF
-    font-size = 14
+    font-size = ${toString font-size}
 
     # window
     window-padding-x = 10
@@ -69,5 +72,10 @@
     notify-on-command-finish = unfocused
     notify-on-command-finish-action = bell,notify
     notify-on-command-finish-after = 20s
+
+    # increase/decrease font size
+    keybind = ctrl+shift+plus=increase_font_size:1
+    keybind = ctrl+shift+minus=decrease_font_size:1
+    keybind = ctrl+shift+0=set_font_size:${toString font-size}
   '';
 }
