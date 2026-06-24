@@ -47,7 +47,7 @@ in {
         "alt+0=goto_tab:10"
         # create splits
         "alt+n=new_split:auto"
-        "alt+d=close_surface"
+        "alt+q=close_surface"
         "alt+shift+h=new_split:down"
         "alt+shift+v=new_split:right"
         # move between splits
