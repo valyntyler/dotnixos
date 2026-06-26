@@ -28,6 +28,7 @@
     sops
     stow
     tlock
+    yt-dlp
 
     # repo
     gen-license
