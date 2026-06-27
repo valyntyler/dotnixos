@@ -1,4 +1,4 @@
-{
+{inputs, ...}: {
   imports = [
     ./hardware-configuration.nix
     ../common/core
@@ -47,5 +47,21 @@
     forceSSL = true;
     enableACME = true;
     locations."/".proxyPass = "http://192.168.100.11";
+  };
+
+  ## more container stuff
+
+  containers.make = {
+    autoStart = true;
+    privateNetwork = true;
+    hostAddress = "192.168.100.20";
+    localAddress = "192.168.100.21";
+    config = inputs.make-infra.nixosModules.default;
+  };
+
+  services.nginx.virtualHosts."valyn.eu" = {
+    forceSSL = true;
+    enableACME = true;
+    locations."/".proxyPass = "http://192.168.100.21";
   };
 }
