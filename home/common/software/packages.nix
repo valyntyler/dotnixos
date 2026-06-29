@@ -9,6 +9,7 @@
     jellyfin-desktop
     karere
     libreoffice-fresh
+    nicotine-plus
     openra
     prismlauncher
     pwvucontrol
