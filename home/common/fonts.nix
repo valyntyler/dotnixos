@@ -1,6 +1,7 @@
 {pkgs, ...}: {
-  home.packages = with pkgs.nerd-fonts; [
-    fira-code
-    jetbrains-mono
+  home.packages = with pkgs; [
+    ibm-plex
+    nerd-fonts.fira-code
+    nerd-fonts.jetbrains-mono
   ];
 }
