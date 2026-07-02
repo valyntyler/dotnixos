@@ -31,6 +31,7 @@
     sops-nix.inputs.nixpkgs.follows = "nixpkgs";
 
     nvf.url = "github:valyntyler/nvf";
+    nvf.inputs.nixpkgs.follows = "nixpkgs";
 
     nix-minecraft.url = "github:Infinidoge/nix-minecraft";
     nix-minecraft.inputs.nixpkgs.follows = "nixpkgs";
