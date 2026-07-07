@@ -26,6 +26,7 @@
     ../common/optional/services/nextcloud.nix
     ../common/optional/services/nginx.nix
     ../common/optional/services/qbittorrent.nix
+    ../common/optional/services/slskd.nix
     ../common/optional/services/syncthing.nix
     ../common/optional/services/transmission.nix
   ];
