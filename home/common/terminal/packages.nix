@@ -19,6 +19,7 @@
     hledger-ui
     imagemagick
     lsof
+    openssl
     ouch
     pass
     radare2

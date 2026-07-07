@@ -13,6 +13,8 @@
         inputs.sops-nix.nixosModules.sops
         inputs.home-manager.nixosModules.home-manager
         inputs.nix-minecraft.nixosModules.minecraft-servers
+        # infrastructure
+        inputs.indev-infra.nixosModules.default
       ];
     };
   };

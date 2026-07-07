@@ -32,8 +32,11 @@ in {
         calendar
         contacts
         cookbook
+        gpoddersync
         news
+        nextpod
         notes
+        repod
         richdocuments
         tasks
         ;

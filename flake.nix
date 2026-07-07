@@ -46,7 +46,10 @@
     wofizilla.inputs.nixpkgs.follows = "nixpkgs";
 
     # infrastructure
-    indev-infra.url = "git+https://codeberg.org/utwente-indev/infra";
+    indev-infra.url = "git+https://codeberg.org/indevmeetup/infra";
+    indev-infra.inputs.nixpkgs.follows = "nixpkgs";
+    make-infra.url = "/home/valyn/Projects/make-infra/";
+    make-infra.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs = {
