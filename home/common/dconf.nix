@@ -455,7 +455,7 @@
         "org.gnome.Fractal"
         "io.github.alainm23.planify"
         "de.schmidhuberj.Flare"
-        "io.m51.Gelly.desktop"
+        "io.m51.Gelly"
       ];
     };
   };
