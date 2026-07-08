@@ -7,6 +7,10 @@
   cfg = config.services.transmission;
 in {
   services.transmission = {
+    inherit user;
+    # FIX: config and incomplete dir creation
+    # FIX: home directory variable source
+    home = "/home/${user}";
     enable = true;
     package = pkgs.transmission_4;
     openRPCPort = true;
@@ -17,10 +21,6 @@ in {
       rpc-whitelist-enabled = false;
       rpc-host-whitelist-enabled = false;
       rpc-authentication-required = true;
-      # rpc-username = "admin";
-      # rpc-password = "{da51cc9753f84bfd0b978a34a810d2c0fb725ef63ckwCq6W";
-      # set appropriate permissions
-      download-dir = "/home/${user}/Downloads";
     };
     credentialsFile = config.sops.secrets."transmission/json".path;
   };
@@ -30,7 +30,7 @@ in {
     locations."/".proxyPass = "http://127.0.0.1:${builtins.toString cfg.settings.rpc-port}";
   };
   sops.secrets."transmission/json" = {
-    owner = cfg.user;
+    owner = user;
     restartUnits = ["transmission.service"];
   };
 }
