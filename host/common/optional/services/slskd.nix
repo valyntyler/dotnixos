@@ -5,9 +5,8 @@
     environmentFile = config.sops.secrets."slskd/env".path;
     domain = "slskd.valyntyler.com";
     nginx = {
-      addSSL = true;
-      onlySSL = true;
       forceSSL = true;
+      enableACME = true;
     };
   };
   sops.secrets."slskd/env" = {
