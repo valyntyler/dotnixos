@@ -31,7 +31,7 @@
     # bottles
     alpaca
     crosspipe
-    exhibit
+    # exhibit
     flare-signal
     foliate
     fractal

@@ -6,7 +6,7 @@
   home.packages = with pkgs;
     [
       blender
-      freecad
+      # freecad
       gimp3
       inkscape
       krita
