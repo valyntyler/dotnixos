@@ -8,7 +8,7 @@
 in {
   services.nextcloud = {
     enable = true;
-    package = pkgs.nextcloud33;
+    package = pkgs.nextcloud34;
     hostName = domain;
     config = {
       adminpassFile = config.sops.secrets."nextcloud/admin/pass".path;
@@ -27,15 +27,12 @@ in {
     };
     extraApps = {
       inherit
-        (pkgs.nextcloud33Packages.apps)
+        (pkgs.nextcloud34Packages.apps)
         bookmarks
         calendar
         contacts
-        cookbook
         gpoddersync
         news
-        nextpod
-        notes
         repod
         richdocuments
         tasks
