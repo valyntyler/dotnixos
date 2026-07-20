@@ -9,7 +9,7 @@
   };
 in {
   home.packages = with pkgs-stable; [
-    jetbrains.idea
-    jetbrains.rider
+    # jetbrains.idea
+    # jetbrains.rider
   ];
 }

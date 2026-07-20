@@ -8,5 +8,5 @@
     config.allowUnfree = true;
   };
 in {
-  home.packages = with pkgsStale; [android-studio];
+  # home.packages = with pkgsStale; [android-studio];
 }
