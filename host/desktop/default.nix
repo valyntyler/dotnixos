@@ -19,6 +19,7 @@
     ../common/optional/programs/steam.nix
 
     # services
+    ../common/optional/services/beszel.nix
     ../common/optional/services/collabora.nix
     ../common/optional/services/immich.nix
     ../common/optional/services/jellyfin.nix

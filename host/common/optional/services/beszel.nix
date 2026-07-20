@@ -1,0 +1,3 @@
+{
+  # services.beszel.enable = true;
+}
