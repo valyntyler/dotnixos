@@ -21,6 +21,7 @@
     # services
     ../common/optional/services/beszel.nix
     ../common/optional/services/collabora.nix
+    ../common/optional/services/homepage.nix
     ../common/optional/services/immich.nix
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/minecraft.nix
