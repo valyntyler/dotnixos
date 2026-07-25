@@ -18,6 +18,7 @@
     lorem
     resources
     share-preview
+    sticky-notes
     switcheroo
     tangram
     textpieces
