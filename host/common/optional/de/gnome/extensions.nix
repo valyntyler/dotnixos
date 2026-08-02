@@ -4,6 +4,7 @@
     arc-menu
     blur-my-shell
     burn-my-windows
+    caffeine
     hide-top-bar
     just-perfection
     paperwm
