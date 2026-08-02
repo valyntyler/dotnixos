@@ -3,11 +3,6 @@
     # styling
     nwg-look
 
-    # themes
-    colloid-gtk-theme
-    fluent-gtk-theme
-    orchis-theme
-
     # icons
     morewaita-icon-theme
 
