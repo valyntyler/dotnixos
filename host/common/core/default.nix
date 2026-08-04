@@ -2,6 +2,7 @@
   imports = [
     ./boot
     ./i18n
+    ./location
     ./network
     ./security
     ./services
