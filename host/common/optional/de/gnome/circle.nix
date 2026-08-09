@@ -53,5 +53,8 @@
 
     dissent
     gamepad-mirror
+
+    ascii-draw
+    calligraphy
   ];
 }
