@@ -9,6 +9,7 @@
     alda
     cf-tool
     cyme
+    diceware
     dig
     duf
     forgejo-cli
