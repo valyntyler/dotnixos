@@ -31,6 +31,7 @@
     ../common/optional/services/slskd.nix
     ../common/optional/services/syncthing.nix
     ../common/optional/services/transmission.nix
+    ../common/optional/services/vaultwarden.nix
   ];
 
   system.stateVersion = "24.11";
