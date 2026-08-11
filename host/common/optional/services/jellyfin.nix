@@ -8,6 +8,8 @@
     inherit (pkgs.stdenv.hostPlatform) system;
     config.allowUnfree = true;
   };
+  domain = "media.valyntyler.com";
+  port = 8096;
 in {
   services.jellyfin = {
     inherit user;
@@ -20,9 +22,9 @@ in {
     jellyfin-web
     jellyfin-ffmpeg
   ];
-  services.nginx.virtualHosts."watch.valyntyler.com" = {
+  services.nginx.virtualHosts."${domain}" = {
     forceSSL = true;
     enableACME = true;
-    locations."/".proxyPass = "http://127.0.0.1:8096";
+    locations."/".proxyPass = "http://127.0.0.1:${toString port}";
   };
 }
