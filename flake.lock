@@ -448,6 +448,22 @@
         "type": "github"
       }
     },
+    "nixpkgs-nextcloud": {
+      "locked": {
+        "lastModified": 1786487270,
+        "narHash": "sha256-524qvfYK3TsuuC9UCoOGVQxQlaavratk32/ZjnW5a/c=",
+        "owner": "valyntyler",
+        "repo": "nixpkgs",
+        "rev": "78e9ad6f694ad3d616daf19b0abe213d67dfc460",
+        "type": "github"
+      },
+      "original": {
+        "owner": "valyntyler",
+        "ref": "nextcloud",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
     "nixpkgs-stable": {
       "locked": {
         "lastModified": 1786313170,
@@ -665,6 +681,7 @@
         "nixos-hardware": "nixos-hardware",
         "nixos-hardware-ideapad": "nixos-hardware-ideapad",
         "nixpkgs": "nixpkgs_6",
+        "nixpkgs-nextcloud": "nixpkgs-nextcloud",
         "nixpkgs-stable": "nixpkgs-stable",
         "nixpkgs-yazi-flavors": "nixpkgs-yazi-flavors",
         "nvf": "nvf",

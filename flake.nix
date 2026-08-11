@@ -5,6 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nixpkgs-stable.url = "github:NixOS/nixpkgs/nixos-26.05";
     # nixpkgs-termshark.url = "github:amarshall/nixpkgs/termshark-fix-dumpcap-wrapper";
+    nixpkgs-nextcloud.url = "github:valyntyler/nixpkgs/nextcloud";
     nixpkgs-yazi-flavors.url = "github:valyntyler/nixpkgs/yazi-flavors";
 
     flake-parts.url = "github:hercules-ci/flake-parts";

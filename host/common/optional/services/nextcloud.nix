@@ -1,9 +1,13 @@
 # Original config by @bartoostveen, modified to suit my needs
 {
   pkgs,
+  inputs,
   config,
   ...
 }: let
+  pkgs-nextcloud = import inputs.nixpkgs-nextcloud {
+    inherit (pkgs.stdenv.hostPlatform) system;
+  };
   domain = "cloud.valyntyler.com";
 in {
   services.nextcloud = {
@@ -27,7 +31,7 @@ in {
     };
     extraApps = {
       inherit
-        (pkgs.nextcloud34Packages.apps)
+        (pkgs-nextcloud.nextcloud34Packages.apps)
         bookmarks
         calendar
         contacts
