@@ -32,6 +32,7 @@ in {
         calendar
         contacts
         gpoddersync
+        integration_immich
         news
         repod
         richdocuments
