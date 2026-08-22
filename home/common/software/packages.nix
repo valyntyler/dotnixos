@@ -3,13 +3,10 @@
     # bitwarden-desktop
     eden
     galaxy-buds-client
-    grandorgue
     heroic
     iaito
-    jellyfin-desktop
     karere
     libreoffice-fresh
-    nicotine-plus
     openra
     prismlauncher
     pwvucontrol
