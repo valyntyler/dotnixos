@@ -1,0 +1,5 @@
+{
+  services.wastebin = {
+    enable = true;
+  };
+}

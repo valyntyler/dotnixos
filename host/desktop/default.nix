@@ -32,6 +32,7 @@
     ../common/optional/services/syncthing.nix
     ../common/optional/services/transmission.nix
     ../common/optional/services/vaultwarden.nix
+    ../common/optional/services/wastebin.nix
   ];
 
   system.stateVersion = "24.11";
