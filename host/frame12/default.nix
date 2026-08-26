@@ -23,10 +23,8 @@
     ../common/optional/programs/wireshark.nix
 
     # services
-    ../common/optional/services/kanata.nix
-    ../common/optional/services/pipewire.nix
-    ../common/optional/services/postgres.nix
-    ../common/optional/services/syncthing.nix
+    ../common/optional/services/app/kanata.nix
+    ../common/optional/services/app/pipewire.nix
 
     # virtualization
     ../common/optional/virt/docker.nix
