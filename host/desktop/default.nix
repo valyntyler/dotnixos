@@ -25,6 +25,7 @@
     ../common/optional/services/homepage.nix
     ../common/optional/services/immich.nix
     ../common/optional/services/jellyfin.nix
+    ../common/optional/services/memos.nix
     ../common/optional/services/minecraft.nix
     ../common/optional/services/nextcloud.nix
     ../common/optional/services/qbittorrent.nix
