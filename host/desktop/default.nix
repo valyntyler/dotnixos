@@ -19,17 +19,16 @@
     ../common/optional/programs/steam.nix
 
     # services
+    ../common/optional/services/web/nginx.nix
+    ../common/optional/services/web/collabora.nix
     ../common/optional/services/beszel.nix
-    ../common/optional/services/collabora.nix
     ../common/optional/services/homepage.nix
     ../common/optional/services/immich.nix
     ../common/optional/services/jellyfin.nix
     ../common/optional/services/minecraft.nix
     ../common/optional/services/nextcloud.nix
-    ../common/optional/services/nginx.nix
     ../common/optional/services/qbittorrent.nix
     ../common/optional/services/slskd.nix
-    ../common/optional/services/syncthing.nix
     ../common/optional/services/transmission.nix
     ../common/optional/services/vaultwarden.nix
     ../common/optional/services/wastebin.nix
