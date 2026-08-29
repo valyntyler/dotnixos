@@ -1,4 +1,4 @@
-{pkgs, ...}: {
+{
   programs.nushell.settings = {
     show_banner = false;
     completions.external = {

@@ -4,8 +4,8 @@
   ...
 }: {
   imports = [
+    ./scripts
     ./aliases.nix
-    ./scripts.nix
     ./settings.nix
   ];
   programs.nushell = let
@@ -13,7 +13,7 @@
   in {
     enable = true;
     plugins = with pkgs.nushellPlugins; [formats];
-    extraConfig = ''${banner}'';
-    environmentVariables.PAGER = "${pkgs.bat}";
+    extraConfig = banner;
+    environmentVariables.PAGER = pkgs.bat;
   };
 }

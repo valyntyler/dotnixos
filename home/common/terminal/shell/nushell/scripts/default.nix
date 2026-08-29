@@ -6,7 +6,7 @@
 : let
   inherit (builtins) mapAttrs match readDir readFile;
   inherit (lib) concatStringsSep filterAttrs mapAttrsToList mkMerge pipe;
-  root = ./scripts;
+  root = ./.;
   cfg = config.programs.nushell;
   files = pipe root [
     readDir
