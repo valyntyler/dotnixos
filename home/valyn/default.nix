@@ -12,11 +12,11 @@
     ../common/terminal/prompt
     ../common/terminal/shell
     ../common/terminal/packages.nix
-    ../common/cursor.nix
-    ../common/dconf.nix
-    ../common/fonts.nix
-    ../common/gtk.nix
-    ../common/xdg.nix
+    ../common/uiux/cursor.nix
+    ../common/uiux/dconf.nix
+    ../common/uiux/fonts.nix
+    ../common/uiux/gtk.nix
+    ../common/uiux/xdg.nix
 
     # modules
     ../../modules/home-manager
