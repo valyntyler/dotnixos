@@ -4,6 +4,5 @@
     ./circle.nix
     ./extensions.nix
     ./gnome.nix
-    ./nautilus.nix
   ];
 }
