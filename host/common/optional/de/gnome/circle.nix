@@ -55,5 +55,7 @@
 
     ascii-draw
     calligraphy
+
+    poliedros
   ];
 }
