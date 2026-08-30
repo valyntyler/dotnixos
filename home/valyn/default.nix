@@ -4,6 +4,7 @@
     ../common/software/browser
     ../common/software/editor
     ../common/software/email
+    ../common/software/games
     ../common/software/launcher
     ../common/software/creation.nix
     ../common/software/packages.nix
