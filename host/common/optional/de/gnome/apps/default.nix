@@ -4,5 +4,6 @@
     ./exclude.nix
     ./nautilus.nix
     ./circle.nix
+    ./adwaita.nix
   ];
 }
