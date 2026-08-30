@@ -5,5 +5,6 @@
     openra
     prismlauncher
     ryubing
+    vintagestory
   ];
 }
