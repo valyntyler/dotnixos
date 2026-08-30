@@ -26,36 +26,5 @@
     webfont-bundler
     wike
     wordbook
-
-    # these deserve to be a circle apps
-    # bottles
-    alpaca
-    crosspipe
-    # exhibit
-    flare-signal
-    foliate
-    fractal
-    gelly
-    packet
-    planify
-    pods
-    refine
-    rnote
-    varia
-
-    coulr
-    eartag
-    # pdfarranger
-    # libellus
-    # words
-    # pulp
-
-    dissent
-    gamepad-mirror
-
-    ascii-draw
-    calligraphy
-
-    poliedros
   ];
 }
