@@ -1,6 +1,6 @@
 {
   imports = [
-    ./apps.nix
+    ./apps
     ./circle.nix
     ./exclude.nix
     ./extensions.nix
