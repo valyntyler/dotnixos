@@ -1,9 +1,9 @@
 {
   imports = [
-    ./gnome.nix
-    ./exclude.nix
-    ./nautilus.nix
-    ./circle.nix
     ./adwaita.nix
+    ./circle.nix
+    ./exclude.nix
+    ./gnome.nix
+    ./nautilus.nix
   ];
 }
