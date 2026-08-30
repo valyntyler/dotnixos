@@ -29,6 +29,7 @@
     ../common/optional/services/minecraft.nix
     ../common/optional/services/nextcloud.nix
     ../common/optional/services/qbittorrent.nix
+    ../common/optional/services/romm.nix
     ../common/optional/services/slskd.nix
     ../common/optional/services/transmission.nix
     ../common/optional/services/vaultwarden.nix
