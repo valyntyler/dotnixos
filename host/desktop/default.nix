@@ -33,6 +33,7 @@
     ../common/optional/services/slskd.nix
     ../common/optional/services/transmission.nix
     ../common/optional/services/vaultwarden.nix
+    ../common/optional/services/vintagestory.nix
     ../common/optional/services/wastebin.nix
   ];
 
