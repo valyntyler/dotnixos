@@ -18,9 +18,6 @@
     ../common/uiux/fonts.nix
     ../common/uiux/gtk.nix
     ../common/uiux/xdg.nix
-
-    # modules
-    ../../modules/home-manager
   ];
 
   # FIX: clangd can't find libgcc on its own for now

@@ -9,7 +9,6 @@
       inherit system specialArgs;
       modules = [
         ../host/desktop
-        ../modules/nixos
         inputs.sops-nix.nixosModules.sops
         inputs.home-manager.nixosModules.home-manager
         inputs.nix-minecraft.nixosModules.minecraft-servers

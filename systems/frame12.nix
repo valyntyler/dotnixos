@@ -9,7 +9,6 @@
       inherit system specialArgs;
       modules = [
         ../host/frame12
-        ../modules/nixos
         inputs.sops-nix.nixosModules.sops
         inputs.musnix.nixosModules.musnix
         inputs.home-manager.nixosModules.home-manager

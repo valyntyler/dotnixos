@@ -1,9 +1,5 @@
 {
-  programs.zellij = {
-    enable = true;
-    enableNushellIntegration = false;
-  };
-
+  programs.zellij.enable = true;
   xdg.configFile."zellij/layouts/default.kdl".text = ''
     layout {
         default_tab_template {
