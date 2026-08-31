@@ -178,11 +178,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787797243,
-        "narHash": "sha256-8+Q7NOB7RPajRjA4pbCDLzqH+MTjnG9x6LUPLfL2joA=",
+        "lastModified": 1788146656,
+        "narHash": "sha256-XmJmvk9rytTb7dCotO/aqR+YysB8HOqnprlOdv+LAF4=",
         "owner": "nix-community",
         "repo": "home-manager",
-        "rev": "99c9ec63390f1d8c14d95d9e8b17cc29cfbd4e11",
+        "rev": "82c265faf4e3161d6015db07c9b0f1ee36a9029b",
         "type": "github"
       },
       "original": {
@@ -201,11 +201,11 @@
         "rust-overlay": "rust-overlay"
       },
       "locked": {
-        "lastModified": 1787658383,
-        "narHash": "sha256-I+zCjwAtkmgnet+08H+7HV8qJjf6BoFMYsX/8lMiW/s=",
+        "lastModified": 1788173567,
+        "narHash": "sha256-C4/tvPY34n/YfQZUIMRNAHzidAG+qUaU6qBqd07OS2c=",
         "owner": "nix-community",
         "repo": "lanzaboote",
-        "rev": "69cf334f9dbc11213c6228c97e9b32924d51443f",
+        "rev": "d2326588612480c96d5fefb885f57b4660a85584",
         "type": "github"
       },
       "original": {
@@ -278,11 +278,11 @@
         "systems": "systems"
       },
       "locked": {
-        "lastModified": 1788066055,
-        "narHash": "sha256-LGv6VFGkXqzWpDMzslC2Qa0m5IYyeAfd/PdRV0ENOY4=",
+        "lastModified": 1788152858,
+        "narHash": "sha256-KXGM6xAa0knodagqdwuyZHRedzaGw4ahPX8HJh4XQFw=",
         "owner": "Infinidoge",
         "repo": "nix-minecraft",
-        "rev": "63920ab95251a9e123abdbb3e8a928d18566b660",
+        "rev": "3519389db17867d6dfce60c1fa36f45e92e47db8",
         "type": "github"
       },
       "original": {
@@ -627,6 +627,7 @@
         "nixpkgs-yazi-flavors": "nixpkgs-yazi-flavors",
         "nvf": "nvf",
         "sops-nix": "sops-nix",
+        "vintagestory-nix": "vintagestory-nix",
         "wofizilla": "wofizilla",
         "zen-browser": "zen-browser"
       }
@@ -639,11 +640,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1787454509,
-        "narHash": "sha256-r4LDUF+zmJnkftvCVkCrUhSJazsf6EVJF+V2l4/MYbI=",
+        "lastModified": 1788077403,
+        "narHash": "sha256-c20YZQKzQ27qC6Wh729fWRTpI7oV4+7Ur4icKssD4Wc=",
         "owner": "oxalica",
         "repo": "rust-overlay",
-        "rev": "f60c1b57ff805a46b5175c76fc981fb4f81efbcc",
+        "rev": "89e26eeaafa88a2ede4778734acc794ff0299beb",
         "type": "github"
       },
       "original": {
@@ -735,6 +736,26 @@
         "type": "github"
       }
     },
+    "vintagestory-nix": {
+      "inputs": {
+        "nixpkgs": [
+          "nixpkgs"
+        ]
+      },
+      "locked": {
+        "lastModified": 1787274281,
+        "narHash": "sha256-iHOiNVk+Utuh+4z2yKdW4I4AdJwVuOpe6R9wSW8C+qg=",
+        "ref": "refs/heads/master",
+        "rev": "2b9c5cb990168daf77ddf06bcb4c0f579ad9f18e",
+        "revCount": 162,
+        "type": "git",
+        "url": "https://codeberg.org/PierreBorine/vintagestory-nix"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://codeberg.org/PierreBorine/vintagestory-nix"
+      }
+    },
     "wofizilla": {
       "inputs": {
         "flake-parts": "flake-parts_3",
@@ -785,11 +806,11 @@
         ]
       },
       "locked": {
-        "lastModified": 1788076699,
-        "narHash": "sha256-7/xv7BWHPqFZOdJJJkXoNnGDG/lznobSpwLtj2fr73A=",
+        "lastModified": 1788149125,
+        "narHash": "sha256-GueAv4789rOV70hixnL9+uN4tiDKJm7s92DnTejdpuE=",
         "owner": "0xc000022070",
         "repo": "zen-browser-flake",
-        "rev": "8d0d0f036b0104699e60ec0d549d36a24d6e8637",
+        "rev": "5fe00f38d41ced9a5c0ba1cbf2127d7e8b3e3d56",
         "type": "github"
       },
       "original": {
