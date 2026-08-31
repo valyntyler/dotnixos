@@ -21,7 +21,6 @@
 
     # modules
     ../../modules/home-manager
-    inputs.zen-browser.homeModules.beta
   ];
 
   # FIX: clangd can't find libgcc on its own for now
