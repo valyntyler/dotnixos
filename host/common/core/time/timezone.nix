@@ -1,3 +1,3 @@
 {
-  time.timeZone = null;
+  time.timeZone = "Europe/Amsterdam";
 }
