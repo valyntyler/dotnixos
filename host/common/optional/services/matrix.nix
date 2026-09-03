@@ -1,8 +1,9 @@
 # courtesy of tonybanters
 # https://github.com/tonybanters/matrix-btw
-let
+{pkgs, ...}: let
   domain = "valyntyler.com";
-  matrixDomain = "chat.${domain}";
+  matrixDomain = "matrix.${domain}";
+  clientDomain = "chat.${domain}";
   clientConfig = {
     "m.homeserver".base_url = "https://${matrixDomain}";
     "m.identity_server" = {};
@@ -91,6 +92,17 @@ in {
         proxy_set_header Host $host;
         client_max_body_size 100M;
       '';
+    };
+  };
+
+  services.nginx.virtualHosts.${clientDomain} = {
+    enableACME = true;
+    forceSSL = true;
+
+    root = pkgs.element-web.override {
+      conf = {
+        default_server_config = clientConfig;
+      };
     };
   };
 
