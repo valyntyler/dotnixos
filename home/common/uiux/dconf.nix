@@ -168,12 +168,12 @@
     };
 
     # set wallpaper image
-    "org/gnome/desktop/background" = let
-      imagePath = ../../assets/szczeliniec-wielki.jpg;
-    in {
-      picture-uri = "file://" + toString imagePath;
-      picture-uri-dark = "file://" + toString imagePath;
-    };
+    # "org/gnome/desktop/background" = let
+    #   imagePath = ../../assets/szczeliniec-wielki.jpg;
+    # in {
+    #   picture-uri = "file://" + toString imagePath;
+    #   picture-uri-dark = "file://" + toString imagePath;
+    # };
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
