@@ -6,6 +6,7 @@
     calligraphy
     coulr
     crosspipe
+    delfin
     dissent
     eartag
     flare-signal
@@ -19,6 +20,7 @@
     poliedros
     refine
     rnote
+    tsukimi
     varia
 
     # bottles
