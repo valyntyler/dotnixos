@@ -555,11 +555,11 @@
         "nvf": "nvf_2"
       },
       "locked": {
-        "lastModified": 1787574565,
-        "narHash": "sha256-jP667uRH0ZsmIMtAXE7Rn6sjPudnNe+Qa+6hob0YUQ4=",
+        "lastModified": 1788648420,
+        "narHash": "sha256-nHTKHWJh76WqrI+tjCmV42gA+aG2BfWYef2Dq8f1WGQ=",
         "owner": "valyntyler",
         "repo": "nvf",
-        "rev": "46e2fe36ff7a5a5bff237267070f17ef83390604",
+        "rev": "dc5d08e8a19fe0e5aea1b151a1cfacc43c166293",
         "type": "github"
       },
       "original": {
