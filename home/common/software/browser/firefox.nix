@@ -104,6 +104,11 @@
         inherit isDefault search;
         id = 4;
       };
+
+      "indev" = {
+        inherit isDefault search;
+        id = 5;
+      };
     };
   };
 }
