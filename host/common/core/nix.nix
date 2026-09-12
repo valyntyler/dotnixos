@@ -3,7 +3,11 @@
     auto-optimise-store = true;
 
     # Enable flakes and nix command
-    experimental-features = ["nix-command" "flakes"];
+    experimental-features = [
+      "flakes"
+      "nix-command"
+      "pipe-operators"
+    ];
 
     # Add binary cache
     trusted-substituters = [
