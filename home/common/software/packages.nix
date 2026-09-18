@@ -12,6 +12,7 @@
     pwvucontrol
     qwertone
     signal-desktop
+    telegram-desktop
     tigervnc
     vmpk
     wl-clipboard
