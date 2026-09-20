@@ -14,6 +14,7 @@
     fractal
     gamepad-mirror
     gelly
+    nocturne
     packet
     planify
     pods
