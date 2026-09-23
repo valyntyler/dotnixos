@@ -3,6 +3,7 @@
     # nice gtk4/libwaita apps
     alpaca
     ascii-draw
+    bazaar
     calligraphy
     coulr
     crosspipe
