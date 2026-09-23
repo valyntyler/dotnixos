@@ -129,6 +129,8 @@
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/"
         "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/"
+        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/"
+        "/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/"
       ];
     };
 
@@ -165,6 +167,20 @@
       binding = "<Ctrl><Shift>Escape";
       command = "resources";
       name = "task manager";
+    };
+
+    # open calendar
+    "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5" = {
+      binding = "<Super>C";
+      command = "gnome-calendar";
+      name = "calendar";
+    };
+
+    # open karere
+    "org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6" = {
+      binding = "<Super>K";
+      command = "karere";
+      name = "whatsapp client";
     };
 
     # set wallpaper image
