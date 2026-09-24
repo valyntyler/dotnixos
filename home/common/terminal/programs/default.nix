@@ -11,6 +11,7 @@
     ./eza.nix
     ./fd.nix
     ./fzf.nix
+    ./gcc.nix
     ./gh.nix
     ./git.nix
     ./gitui.nix
