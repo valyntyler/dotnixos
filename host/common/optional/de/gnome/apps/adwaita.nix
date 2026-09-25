@@ -22,7 +22,6 @@
     poliedros
     refine
     rnote
-    tsukimi
     varia
 
     # bottles
