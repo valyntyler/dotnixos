@@ -193,7 +193,17 @@
 
     # specify app folders
     "org/gnome/desktop/app-folders" = {
-      folder-children = ["Utilities" "Circle" "Programming" "Creation" "Office" "Sound & Video" "Games" "Settings"];
+      folder-children = [
+        "Utilities"
+        "Circle"
+        # "Social"
+        "Office"
+        "Programming"
+        "Creation"
+        "Sound & Video"
+        "Games"
+        "Settings"
+      ];
     };
 
     "org/gnome/desktop/app-folders/folders/Utilities" = {
@@ -230,6 +240,7 @@
         "org.gnome.gitlab.somas.Apostrophe.desktop"
         "io.github.nokse22.asciidraw.desktop"
         "com.belmoussaoui.Authenticator.desktop"
+        "io.github.kolunmi.Bazaar.desktop"
         "io.github.fizzyizzy05.binary.desktop"
         "com.rafaelmardojai.Blanket.desktop"
         "com.usebottles.bottles.desktop"
@@ -240,6 +251,7 @@
         "com.github.huluti.Curtail.desktop"
         "io.github.dp0sk.Crosspipe.desktop"
         "com.belmoussaoui.Decoder.desktop"
+        "cafe.avery.Delfin.desktop"
         "de.schmidhuberj.DieBahn.desktop"
         "so.libdb.dissent.desktop"
         "io.github.revisto.drum-machine.desktop"
@@ -255,14 +267,16 @@
         "io.m51.Gelly.desktop"
         "be.alexandervanhee.gradia.desktop"
         "io.gitlab.adhami3310.Impression.desktop"
-        "dev.bragefuglseth.Keypunch.Devel.desktop"
+        "no.bragefuglseth.Keypunch.desktop"
         "io.github.mrvladus.List.desktop"
         "org.gnome.design.Lorem.desktop"
+        "com.jeffser.Nocturne.desktop"
         "io.github.nozwock.Packet.desktop"
         "io.github.alainm23.planify.desktop"
         "com.github.marhkb.Pods.desktop"
+        "io.github.kriptolix.Poliedros.desktop"
         "page.tesk.Refine.desktop"
-        "net.nokyan.Resources.desktop"
+        "org.gnome.Resources.desktop"
         "com.github.flxzt.rnote.desktop"
         "com.rafaelmardojai.SharePreview.desktop"
         "re.sonny.Tangram.desktop"
@@ -275,6 +289,16 @@
         "dev.mufeed.Wordbook.desktop"
       ];
     };
+
+    # "org/gnome/desktop/app-folders/folders/Social" = {
+    #   name = "Social";
+    #   apps = [
+    #     "io.github.tobagin.karere.desktop"
+    #     "signal.desktop"
+    #     "org.telegram.desktop.desktop"
+    #     "discord.desktop"
+    #   ];
+    # };
 
     "org/gnome/desktop/app-folders/folders/Programming" = {
       name = "Programming";
@@ -316,7 +340,7 @@
       name = "Sound & Video";
       apps = [
         "ardour8.desktop"
-        "audacity.desktop"
+        "org.audacityteam.Audacity.desktop"
         "cockos-reaper.desktop"
         "davinci-resolve.desktop"
         "guitarix.desktop"
@@ -401,24 +425,21 @@
           # row 1
           "Alacritty.desktop"
           "com.mitchellh.ghostty.desktop"
-          "zen-beta.desktop"
           "firefox.desktop"
           "thunderbird.desktop"
-          "discord.desktop"
-          "signal.desktop"
-          "io.github.tobagin.karere.desktop"
-          # row 2
-          "spotify.desktop"
           "steam.desktop"
-          "Programming"
+          "spotify.desktop"
+          "io.github.tobagin.karere.desktop"
+          "signal.desktop"
+          # row 2
+          "discord.desktop"
+          "org.telegram.desktop.desktop"
           "Office"
+          "Programming"
           "Creation"
           "Sound & Video"
           "Games"
           "Settings"
-          # row 3
-          "syncthing-ui.desktop"
-          "org.jellyfin.JellyfinDesktop.desktop"
         ]
       ];
     };
@@ -470,11 +491,13 @@
         "dev.bragefuglseth.Keypunch.Devel"
         "io.github.nozwock.Packet"
         "VSCodium"
-        "net.nokyan.Resources"
+        "org.gnome.Resources.desktop"
         "org.gnome.Fractal"
         "io.github.alainm23.planify"
         "de.schmidhuberj.Flare"
         "io.m51.Gelly"
+        "io.github.kriptolix.Poliedros.desktop"
+        "io.github.kolunmi.Bazaar.desktop"
       ];
     };
   };
