@@ -16,6 +16,6 @@
     tigervnc
     vmpk
     wl-clipboard
-    inputs.nix-software-center.packages.${system}.nix-software-center
+    # inputs.nix-software-center.packages.${system}.nix-software-center
   ];
 }
