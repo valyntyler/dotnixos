@@ -1,12 +1,11 @@
 {pkgs, ...}: {
   programs.vscodium = {
-    enable = true;
-    profiles.default = {
-      extensions = with pkgs.vscode-extensions; [
-        bbenoist.nix
-        vscodevim.vim
-        vue.volar
-      ];
-    };
+    enable = false;
+    profiles.default.extensions = with pkgs.vscode-extensions; [
+      bbenoist.nix
+      vscodevim.vim
+      vue.volar
+      yzhang.markdown-all-in-one
+    ];
   };
 }
