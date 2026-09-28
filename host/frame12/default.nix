@@ -23,6 +23,7 @@
     ../common/optional/programs/wireshark.nix
 
     # services
+    ../common/optional/services/app/flatpak.nix
     ../common/optional/services/app/kanata.nix
     ../common/optional/services/app/pipewire.nix
 
