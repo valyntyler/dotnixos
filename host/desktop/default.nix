@@ -15,6 +15,7 @@
     # programs
     ../common/optional/programs/discord.nix
     ../common/optional/programs/localsend.nix
+    ../common/optional/programs/nix-ld.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
 
