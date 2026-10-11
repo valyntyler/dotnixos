@@ -1,6 +1,6 @@
 {pkgs, ...}: {
   environment.systemPackages = with pkgs; [
-    apostrophe
+    # apostrophe
     authenticator
     binary
     blanket
