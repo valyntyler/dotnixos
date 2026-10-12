@@ -18,8 +18,7 @@
     ../common/optional/programs/nix-ld.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
-    ../common/optional/services/kanata.nix
-    ../common/optional/services/syncthing.nix
+    ../common/optional/services/app/kanata.nix
     ../common/optional/virt/virtd.nix
   ];
 
