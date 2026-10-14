@@ -19,6 +19,7 @@
     ../common/optional/programs/steam.nix
     ../common/optional/services/app/kanata.nix
     ../common/optional/services/app/flatpak.nix
+    ../common/optional/virt/docker.nix
     ../common/optional/virt/virtd.nix
   ];
 
