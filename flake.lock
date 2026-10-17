@@ -603,11 +603,11 @@
         "nvf": "nvf_2"
       },
       "locked": {
-        "lastModified": 1792238193,
-        "narHash": "sha256-AK5z/+FmXoy5wg69C9sjpfXA0pV1RFx2hBV48gbdMtU=",
+        "lastModified": 1792253676,
+        "narHash": "sha256-FwQgsS1awJeZLrNQ2l1CUZ8thKo7osXrnFdEa54wSLI=",
         "owner": "valyntyler",
         "repo": "nvf",
-        "rev": "539df11a8ac896c444aa04839ae5dbfc5c22fe90",
+        "rev": "f4154f3d1340f2d1cd0ecb1110c374d6945a1d5f",
         "type": "github"
       },
       "original": {
