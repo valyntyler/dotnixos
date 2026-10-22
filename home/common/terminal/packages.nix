@@ -1,5 +1,11 @@
-{pkgs, ...}: {
+{
+  inputs,
+  pkgs,
+  ...
+}: {
   home.packages = with pkgs; [
+    inputs.nix-tree.packages."x86_64-linux".default
+
     superfile
     circumflex
     # https://github.com/emprcl/signls
