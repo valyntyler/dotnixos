@@ -498,6 +498,7 @@
         "io.m51.Gelly"
         "io.github.kriptolix.Poliedros.desktop"
         "io.github.kolunmi.Bazaar.desktop"
+        "net.donnybeelo.Convey.desktop"
       ];
     };
   };
