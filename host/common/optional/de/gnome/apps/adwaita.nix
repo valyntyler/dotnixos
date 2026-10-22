@@ -5,6 +5,7 @@
     ascii-draw
     bazaar
     calligraphy
+    convey
     coulr
     crosspipe
     delfin
