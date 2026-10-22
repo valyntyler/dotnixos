@@ -5,6 +5,7 @@
     ../common/optional/de/gnome
     ../common/optional/dm/gdm
     ../common/optional/home-manager.nix
+    ../common/optional/nix-auth.nix
     ../common/optional/xdg.nix
     ../common/optional/hardware/graphics.nix
     ../common/optional/hardware/nvidia.nix
