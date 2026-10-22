@@ -491,14 +491,14 @@
         "dev.bragefuglseth.Keypunch.Devel"
         "io.github.nozwock.Packet"
         "VSCodium"
-        "org.gnome.Resources.desktop"
+        "org.gnome.Resources"
         "org.gnome.Fractal"
         "io.github.alainm23.planify"
         "de.schmidhuberj.Flare"
         "io.m51.Gelly"
-        "io.github.kriptolix.Poliedros.desktop"
-        "io.github.kolunmi.Bazaar.desktop"
-        "net.donnybeelo.Convey.desktop"
+        "io.github.kriptolix.Poliedros"
+        "io.github.kolunmi.Bazaar"
+        "net.donnybeelo.Convey"
       ];
     };
   };
