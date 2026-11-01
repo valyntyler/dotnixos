@@ -12,6 +12,8 @@
     ze = "zoxide edit";
     nr = "nix run";
     hl = "hledger-ui";
+    da = "direnv allow";
+    dda = "direnv disallow";
     rcon = "rcon-cli";
     tree = "eza --tree";
     lsusb = "cyme -l";
