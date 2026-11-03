@@ -1,0 +1,3 @@
+{
+  programs.libreoffice.enable = true;
+}

@@ -8,7 +8,6 @@
     galaxy-buds-client
     iaito
     karere
-    libreoffice-fresh
     pwvucontrol
     qwertone
     signal-desktop
