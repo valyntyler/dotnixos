@@ -1,4 +1,4 @@
-{inputs, ...}: {
+{
   imports = [
     ../common/software/programs/libreoffice.nix
     ../common/software/services/walker.nix
@@ -17,7 +17,6 @@
     ../common/uiux/cursor.nix
     ../common/uiux/dconf.nix
     ../common/uiux/fonts.nix
-    ../common/uiux/gtk.nix
     ../common/uiux/xdg.nix
   ];
 

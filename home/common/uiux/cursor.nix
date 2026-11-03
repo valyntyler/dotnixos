@@ -4,12 +4,13 @@
   ...
 }: let
   cfg = config.home;
+  name = "Bibata-Modern-Classic";
+  size = 24;
 in {
   home.pointerCursor = {
+    inherit name size;
     enable = true;
-    name = "Bibata-Modern-Classic";
     package = pkgs.bibata-cursors;
-    size = 24;
     dotIcons.enable = true;
     gtk.enable = true;
     x11.enable = true;
