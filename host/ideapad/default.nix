@@ -5,10 +5,11 @@
     ../common/optional/de/gnome
     ../common/optional/dm/gdm
     ../common/optional/home-manager.nix
+    ../common/optional/musnix.nix
     ../common/optional/nix-auth.nix
     ../common/optional/xdg.nix
-    ../common/optional/hardware/graphics.nix
-    ../common/optional/hardware/nvidia.nix
+
+    # programs
     ../common/optional/programs/appimage.nix
     ../common/optional/programs/discord.nix
     ../common/optional/programs/gamemode.nix
@@ -18,8 +19,18 @@
     ../common/optional/programs/nix-ld.nix
     ../common/optional/programs/spotify.nix
     ../common/optional/programs/steam.nix
-    ../common/optional/services/app/kanata.nix
+    ../common/optional/programs/wireshark.nix
+
+    # services
     ../common/optional/services/app/flatpak.nix
+    ../common/optional/services/app/kanata.nix
+    ../common/optional/services/app/pipewire.nix
+
+    # hardware
+    ../common/optional/hardware/graphics.nix
+    ../common/optional/hardware/nvidia.nix
+
+    # virtualization
     ../common/optional/virt/docker.nix
     ../common/optional/virt/virtd.nix
   ];
