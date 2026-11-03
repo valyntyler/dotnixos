@@ -4,8 +4,8 @@
     openFirewall = true;
     nssmdns4 = true;
     nssmdns6 = true;
-    publish = {
-      enable = true;
+    settings.publish = {
+      "disable-publishing" = false;
       addresses = true;
       workstation = true;
     };
