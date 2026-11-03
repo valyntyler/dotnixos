@@ -3,17 +3,17 @@
   user,
   ...
 }: {
-  # users.users.${user}.extraGroups = ["wireshark"];
-  # services.udev.extraRules = ''
-  #   SUBSYSTEM=="usbmon", GROUP="wireshark", MODE="0640"
-  # '';
+  users.extraGroups.wireshark.members = [user];
+  programs.wireshark = {
+    enable = true;
+    dumpcap.enable = true;
+    usbmon.enable = true;
+  };
   environment.systemPackages = with pkgs; [
-    # termshark
-    # wireshark
+    termshark
+    wireshark
   ];
-  # programs.wireshark = {
-  #   enable = true;
-  #   dumpcap.enable = true;
-  #   usbmon.enable = true;
-  # };
+  services.udev.extraRules = ''
+    SUBSYSTEM=="usbmon", GROUP="wireshark", MODE="0640"
+  '';
 }
