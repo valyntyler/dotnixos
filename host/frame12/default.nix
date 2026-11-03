@@ -8,7 +8,6 @@
     ../common/optional/musnix.nix
     ../common/optional/nix-auth.nix
     ../common/optional/xdg.nix
-    ../common/optional/hardware/graphics.nix
 
     # programs
     ../common/optional/programs/appimage.nix
@@ -26,6 +25,9 @@
     ../common/optional/services/app/flatpak.nix
     ../common/optional/services/app/kanata.nix
     ../common/optional/services/app/pipewire.nix
+
+    # hardware
+    ../common/optional/hardware/graphics.nix
 
     # virtualization
     ../common/optional/virt/docker.nix
