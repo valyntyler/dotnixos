@@ -12,6 +12,7 @@
     banner = lib.getExe pkgs.nitch;
   in {
     enable = true;
+    loadSessionVariables = true;
     plugins = with pkgs.nushellPlugins; [formats];
     extraConfig = banner;
     environmentVariables.PAGER = pkgs.bat;
