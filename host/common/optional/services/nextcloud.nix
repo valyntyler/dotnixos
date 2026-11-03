@@ -2,7 +2,6 @@
 {
   pkgs,
   inputs,
-  config,
   ...
 }: let
   pkgs-nextcloud = import inputs.nixpkgs-nextcloud {
@@ -15,7 +14,6 @@ in {
     package = pkgs.nextcloud34;
     hostName = domain;
     config = {
-      adminpassFile = config.sops.secrets."nextcloud/admin/pass".path;
       dbtype = "pgsql";
     };
     database.createLocally = true;
@@ -49,6 +47,4 @@ in {
     forceSSL = true;
     enableACME = true;
   };
-  # initial admin password
-  sops.secrets."nextcloud/admin/pass".owner = "nextcloud";
 }
