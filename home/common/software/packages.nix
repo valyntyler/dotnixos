@@ -6,7 +6,6 @@
   home.packages = with pkgs; [
     # bitwarden-desktop
     galaxy-buds-client
-    iaito
     karere
     pwvucontrol
     qwertone
