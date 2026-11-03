@@ -14,7 +14,6 @@
     nixos-hardware.url = "github:nixos/nixos-hardware";
     nixos-hardware-ideapad.url = "github:valyntyler/nixos-hardware/master";
 
-    # TODO: add package
     nix-tree.url = "github:utdemir/nix-tree";
     nix-tree.inputs.nixpkgs.follows = "nixpkgs";
 
