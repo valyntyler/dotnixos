@@ -37,6 +37,7 @@
     stow
     tlock
     yt-dlp
+    viu
 
     # repo
     gen-license
