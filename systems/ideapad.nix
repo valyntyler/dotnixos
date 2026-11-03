@@ -10,6 +10,7 @@
       modules = [
         ../host/ideapad
         inputs.sops-nix.nixosModules.sops
+        inputs.musnix.nixosModules.musnix
         inputs.lanzaboote.nixosModules.lanzaboote
         inputs.home-manager.nixosModules.home-manager
         inputs.nixos-hardware-ideapad.nixosModules.lenovo-ideapad-15ihu6
