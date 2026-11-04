@@ -31,7 +31,6 @@ in {
     extraApps = {
       inherit
         (pkgs-nextcloud.nextcloud34Packages.apps)
-        bookmarks
         calendar
         contacts
         gpoddersync
