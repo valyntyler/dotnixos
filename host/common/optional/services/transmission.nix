@@ -11,7 +11,7 @@ in {
     # FIX: config and incomplete dir creation
     # FIX: home directory variable source
     home = "/home/${user}";
-    enable = true;
+    enable = false;
     package = pkgs.transmission_4;
     openRPCPort = true;
     openPeerPorts = true;

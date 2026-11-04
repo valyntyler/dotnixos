@@ -1,6 +1,6 @@
 {
   services.avahi = {
-    enable = true;
+    enable = false;
     openFirewall = true;
     nssmdns4 = true;
     nssmdns6 = true;
