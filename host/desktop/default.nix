@@ -26,6 +26,7 @@
     ../common/optional/services/homepage.nix
     ../common/optional/services/immich.nix
     ../common/optional/services/jellyfin.nix
+    ../common/optional/services/karakeep.nix
     ../common/optional/services/matrix.nix
     ../common/optional/services/memos.nix
     ../common/optional/services/minecraft.nix
