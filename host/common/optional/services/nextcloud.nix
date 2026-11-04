@@ -2,6 +2,7 @@
 {
   pkgs,
   inputs,
+  config,
   ...
 }: let
   pkgs-nextcloud = import inputs.nixpkgs-nextcloud {
@@ -42,9 +43,11 @@ in {
         ;
     };
     extraAppsEnable = true;
+    secretFile = config.sops.secrets."nextcloud/config".path;
   };
   services.nginx.virtualHosts.${domain} = {
     forceSSL = true;
     enableACME = true;
   };
+  sops.secrets."nextcloud/config".owner = "nextcloud";
 }
