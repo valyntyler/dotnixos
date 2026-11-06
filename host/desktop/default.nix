@@ -31,6 +31,7 @@
     ../common/optional/services/memos.nix
     ../common/optional/services/minecraft.nix
     ../common/optional/services/nextcloud.nix
+    ../common/optional/services/postgres.nix
     ../common/optional/services/qbittorrent.nix
     ../common/optional/services/romm.nix
     ../common/optional/services/slskd.nix
