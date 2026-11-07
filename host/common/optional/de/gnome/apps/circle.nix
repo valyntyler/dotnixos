@@ -22,6 +22,7 @@
     switcheroo
     tangram
     textpieces
+    tuba
     video-trimmer
     warp
     webfont-bundler
