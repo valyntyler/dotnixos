@@ -23,6 +23,7 @@
     ../common/optional/services/web/nginx.nix
     ../common/optional/services/web/collabora.nix
     ../common/optional/services/beszel.nix
+    ../common/optional/services/gotosocial.nix
     ../common/optional/services/homepage.nix
     ../common/optional/services/immich.nix
     ../common/optional/services/jellyfin.nix
