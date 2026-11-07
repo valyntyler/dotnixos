@@ -144,6 +144,22 @@
       "indev" = {
         inherit isDefault search;
         id = 5;
+        settings = {
+          "browser.newtabpage.pinned" = [
+            {
+              title = "Website";
+              url = "https://indevmeetup.nl/";
+            }
+            {
+              title = "Cloud";
+              url = "https://cloud.indevmeetup.nl/";
+            }
+            {
+              title = "Vault";
+              url = "https://vault.indevmeetup.nl/";
+            }
+          ];
+        };
       };
     };
   };
