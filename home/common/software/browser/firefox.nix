@@ -98,6 +98,42 @@
       "uni" = {
         inherit isDefault search;
         id = 3;
+        settings = {
+          "browser.newtabpage.pinned" = [
+            {
+              title = "Osiris";
+              url = "https://utwente.osiris-student.nl/home";
+            }
+            {
+              title = "Time Edit";
+              url = "https://cloud.timeedit.net/nl_utwente/web/student/";
+            }
+            {
+              title = "Canvas";
+              url = "https://canvas.utwente.nl/";
+            }
+            {
+              title = "Horus";
+              url = "https://horus.apps.utwente.nl/courses";
+            }
+            {
+              title = "Gitlab";
+              url = "https://gitlab.utwente.nl/";
+            }
+            {
+              title = "Matrix";
+              url = "https://chat.eemcs.utwente.nl/home/";
+            }
+            {
+              title = "Outlook";
+              url = "https://outlook.office.com/mail/";
+            }
+            {
+              title = "Planner";
+              url = "https://eemcs.planner.utwente.nl/";
+            }
+          ];
+        };
       };
 
       "ia" = {
