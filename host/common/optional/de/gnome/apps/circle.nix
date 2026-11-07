@@ -16,6 +16,7 @@
     impression
     keypunch
     lorem
+    newsflash
     resources
     share-preview
     switcheroo
