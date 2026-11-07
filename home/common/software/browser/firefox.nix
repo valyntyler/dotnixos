@@ -99,6 +99,8 @@
         inherit isDefault search;
         id = 3;
         settings = {
+          "browser.newtabpage.activity-stream.showSponsored" = false;
+          "browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
           "browser.newtabpage.pinned" = [
             {
               title = "Osiris";
@@ -145,6 +147,8 @@
         inherit isDefault search;
         id = 5;
         settings = {
+          "browser.newtabpage.activity-stream.showSponsored" = false;
+          "browser.newtabpage.activity-stream.showSponsoredTopSites" = false;
           "browser.newtabpage.pinned" = [
             {
               title = "Website";
