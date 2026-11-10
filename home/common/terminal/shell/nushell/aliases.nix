@@ -14,6 +14,8 @@
     hl = "hledger-ui";
     da = "direnv allow";
     dda = "direnv disallow";
+    gpr = "git pull --rebase";
+    ssh = "ghostty +ssh --";
     rcon = "rcon-cli";
     tree = "eza --tree";
     lsusb = "cyme -l";
