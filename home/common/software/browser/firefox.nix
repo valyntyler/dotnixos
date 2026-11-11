@@ -37,21 +37,13 @@
     profiles = let
       isDefault = false;
       search = {
-        default = "Unduck";
+        default = "DuckDuckGo";
         force = true;
-        order = ["Unduck"];
+        order = ["DuckDuckGo"];
         engines = {
-          # custom search engines
-          "Unduck" = {
-            urls = [{template = "https://unduck.link?q={searchTerms}";}];
-            iconMapObj."16" = "https://unduck.link/search.svg";
-            updateInterval = 24 * 60 * 60 * 1000;
-          };
-
           # disable defaults
           bing.metaData.hidden = true;
           google.metaData.hidden = true;
-          ddg.metaData.hidden = true;
           wikipedia.metaData.hidden = true;
         };
       };
@@ -62,10 +54,8 @@
         search =
           search
           // {
-            order = ["Unduck" "Nix Packages" "MyNixOS"];
+            order = ["" "Nix Packages" "MyNixOS"];
             engines = {
-              "Unduck" = search.engines."Unduck";
-
               "Nix Packages" = {
                 urls = [{template = "https://search.nixos.org/packages?type=packages&query={searchTerms}";}];
                 iconMapObj."16" = "https://search.nixos.org/favicon.png";
