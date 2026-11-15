@@ -3,6 +3,7 @@
     eden
     heroic
     openra
+    pandora-launcher
     prismlauncher
     ryubing
     vintagestory
