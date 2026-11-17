@@ -89,7 +89,6 @@
               # disable defaults
               bing.metaData.hidden = true;
               google.metaData.hidden = true;
-              ddg.metaData.hidden = true;
               wikipedia.metaData.hidden = true;
             };
           };
