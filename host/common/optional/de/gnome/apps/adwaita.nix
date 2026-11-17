@@ -11,6 +11,7 @@
     delfin
     dissent
     eartag
+    exhibit
     flare-signal
     foliate
     fractal
@@ -26,7 +27,6 @@
     varia
 
     # bottles
-    # exhibit
     # pdfarranger
     # libellus
     # words
