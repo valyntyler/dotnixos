@@ -10,8 +10,8 @@ def compile [file: string] {
 
 def livemd [file: string] {
   if ($file | path exists) and ($file | is-markdown) {
-    compile file
-    watch $file | each {|event| compile file }
+    compile $file
+    watch $file | each {|| compile $file }
     return
   }
 }
