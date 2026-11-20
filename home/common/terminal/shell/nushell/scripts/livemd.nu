@@ -17,9 +17,9 @@ def livemd [file: string] {
     } else {
       let span = (metadata $file).span;
       error make {
-        msg: "incorrect file type",
+        msg: "Incorrect file type",
         label: {
-          text: "input is not a markdown file.",
+          text: "Input is not a markdown file",
           span: $span
         }
       }
@@ -27,9 +27,9 @@ def livemd [file: string] {
   } else {
     let span = (metadata $file).span;
     error make {
-      msg: "path does not exist",
+      msg: "Path does not exist",
       label: {
-        text: "this path does not exist.",
+        text: "This path does not exist",
         span: $span
       }
     }
