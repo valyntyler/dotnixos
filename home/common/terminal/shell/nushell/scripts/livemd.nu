@@ -12,7 +12,11 @@ def livemd [file: string] {
   if ($file | path exists) {
     if ($file | is-markdown) {
       compile $file
-      watch $file | each {|| compile $file }
+      print $"[watching `($file)`]"
+      watch $file | each {||
+        compile $file
+        print $"[recompiled]"
+      }
       return
     } else {
       let span = (metadata $file).span;
