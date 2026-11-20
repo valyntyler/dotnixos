@@ -9,9 +9,29 @@ def compile [file: string] {
 }
 
 def livemd [file: string] {
-  if ($file | path exists) and ($file | is-markdown) {
-    compile $file
-    watch $file | each {|| compile $file }
-    return
+  if ($file | path exists) {
+    if ($file | is-markdown) {
+      compile $file
+      watch $file | each {|| compile $file }
+      return
+    } else {
+      let span = (metadata $file).span;
+      error make {
+        msg: "incorrect file type",
+        label: {
+          text: "input is not a markdown file.",
+          span: $span
+        }
+      }
+    }
+  } else {
+    let span = (metadata $file).span;
+    error make {
+      msg: "path does not exist",
+      label: {
+        text: "this path does not exist.",
+        span: $span
+      }
+    }
   }
 }
