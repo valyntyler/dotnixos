@@ -1,6 +1,7 @@
 {
   imports = [
     ../common/software/programs/libreoffice.nix
+    ../common/software/services/psd.nix
     ../common/software/services/walker.nix
     ../common/software/browser
     ../common/software/editor
