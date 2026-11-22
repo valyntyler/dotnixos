@@ -43,7 +43,13 @@
         engines = {
           # disable defaults
           bing.metaData.hidden = true;
+          ebay-nl.metaData.hidden = true;
+          ebay.metaData.hidden = true;
+          ecosia.metaData.hidden = true;
           google.metaData.hidden = true;
+          perplexity.metaData.hidden = true;
+          qwant.metaData.hidden = true;
+          startpage.metaData.hidden = true;
           wikipedia.metaData.hidden = true;
         };
       };
@@ -54,7 +60,7 @@
         search =
           search
           // {
-            order = ["" "Nix Packages" "MyNixOS"];
+            order = ["DuckDuckGo" "Nix Packages" "MyNixOS"];
             engines = {
               "Nix Packages" = {
                 urls = [{template = "https://search.nixos.org/packages?type=packages&query={searchTerms}";}];
@@ -88,7 +94,13 @@
 
               # disable defaults
               bing.metaData.hidden = true;
+              ebay-nl.metaData.hidden = true;
+              ebay.metaData.hidden = true;
+              ecosia.metaData.hidden = true;
               google.metaData.hidden = true;
+              perplexity.metaData.hidden = true;
+              qwant.metaData.hidden = true;
+              startpage.metaData.hidden = true;
               wikipedia.metaData.hidden = true;
             };
           };
