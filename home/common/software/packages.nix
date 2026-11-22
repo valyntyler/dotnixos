@@ -5,6 +5,7 @@
 }: {
   home.packages = with pkgs; [
     # bitwarden-desktop
+    eduvpn-client
     galaxy-buds-client
     karere
     pwvucontrol
